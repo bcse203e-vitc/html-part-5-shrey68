@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  .btn {
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+
+  .gradient-btn {
+    background: linear-gradient(45deg, #fc7655, #f9b581);
+    color: white;
+    border: none;
+  }
+  
+  .gradient-btn:hover {
+    background: linear-gradient(45deg, #fabd8f, #f87453);
+  }
+  
+  .border-hover-btn {
+    background-color: #fad6ba;
+    color: #fc7655;
+    border: 2px solid #fc7655;
+  }
+  
+  .border-hover-btn:hover {
+    border-color: #ff7e5f;
+    color: #ff7e5f;
+  }
+  
+  .glow-btn {
+    background-color: #fad6ba;
+    color:#fc7655;
+    box-shadow: 0 0 10px #fc7655);
+  }
+  
+  .glow-btn:hover {
+    box-shadow: 0 0 20px #fc7e5f, 0 0 40px #feb47b;
+  }
+  
